@@ -2,11 +2,22 @@ package com.company;
 
 public class BujurSangkar {
 
-    public static void main(String[]args){
-        int sisi=15;
-        int keliling=sisi+sisi+sisi+sisi;
+    private int sisi;
+    private int keliling;
 
-        System.out.println("Sisi persegi : "+sisi);
-        System.out.println("Kelliling : "+keliling);
+    public void hitungKeliling(){
+        keliling=sisi+sisi+sisi+sisi;
+    }
+
+    public int getSisi() {
+        return sisi;
+    }
+
+    public void setSisi(int sisi) {
+        this.sisi = sisi;
+    }
+
+    public int getKeliling() {
+        return keliling;
     }
 }
